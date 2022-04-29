@@ -1,0 +1,228 @@
+body {
+    background-color: #ffffff;
+    padding: 2.5em 8.5em 0 14em;
+}
+
+/* HEADER */
+#header-title {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin: auto;
+}
+
+#header-div-subtitle {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0.8em;
+    margin-left: 0.2em;
+}
+
+#header-image {
+    margin-right: 0.9em;
+}
+
+#header-subtitle {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    color: #4f4f4f;
+    width: 42vw;
+}
+
+/* IMAGE */
+#img-cheesecake {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    object-fit: cover;
+}
+
+/* SECTION INGREDIENTS */
+
+section {
+    display: flex;
+    margin-top: 1.6em;
+}
+
+#div-recipe {
+    flex-direction: column;
+    flex: 40%;
+}
+
+#title-ingredients {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+#subtitle-ingredients {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    color: #333333;
+    padding: 10px 0;
+}
+
+#div-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+#div-label-checkbox {
+    display: flex;
+    align-items: baseline;
+}
+
+label {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    line-height: 150%;
+}
+
+input[type="checkbox"] {
+    width: 2.5em;
+    height: 1.5em;
+    margin: 10px 10px 10px 0;
+    border: 0px solid #828282;
+}
+
+#span-bold {
+    font-weight: 700;
+    color: #000000;
+}
+
+#span-italic {
+    font-style: italic;
+}
+
+/* INSTRUCCTIONS */
+
+#div-label-number {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 2em;
+}
+
+#checkbox-number {
+    background-color: #f2994a;
+    color: #ffffff;
+    border-radius: 4px;
+    display: block;
+    width: 36px;
+    height: 36px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+/* SOURCE */
+#div-src {
+    padding-top: 2em;
+}
+
+#span-src {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    color: #bdbdbd;
+    font-style: italic;
+}
+
+/* TIMES */
+#div-times {
+    flex-direction: column;
+    flex: 20%;
+    padding-top: 1em;
+    display: flex;
+    align-items: flex-end;
+}
+
+#div-center {
+    box-shadow: 0px 0px 20px 0px #0000001a;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 216px;
+    height: 367px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#div-span-top {
+    display: flex;
+    padding: 57px 0 43px 43px;
+}
+
+#div-span {
+    display: flex;
+    padding-left: 43px;
+    padding-bottom: 43px;
+}
+
+#div-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#span-knife {
+    color: #f2994a;
+    font-size: 30px;
+    padding-right: 14px;
+}
+
+#span-time {
+    color: #4f4f4f;
+    font-size: 30px;
+    padding-right: 14px;
+}
+
+#span-title {
+    font-weight: 700;
+    font-size: 10px;
+    color: #bdbdbd;
+}
+
+#span-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+#span-subtitle-active {
+    font-weight: 500;
+    font-size: 14px;
+    color: #f2994a;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    color: #bdbdbd;
+    padding: 90px 0 1em 0;
+}
+
+#footer-span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9em;
+    color: #a9a9a9;
+}
+
+a {
+    color: #bdbdbd;
+    font-weight: 700;
+    padding: 0px;
+}
+
+
