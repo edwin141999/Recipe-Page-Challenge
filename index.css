@@ -35,7 +35,6 @@ body {
     width: 100%;
     height: 100%;
     margin-top: 40px;
-    object-fit: cover;
 }
 
 /* SECTION INGREDIENTS */
@@ -46,7 +45,6 @@ section {
 }
 
 #div-recipe {
-    flex-direction: column;
     flex: 40%;
 }
 
@@ -225,4 +223,135 @@ a {
     padding: 0px;
 }
 
+@media (max-width: 640px) {
+    body {
+        padding: 30px 0 0 0;
+    }
 
+    /* HEADER */
+    #header-title {
+        font-size: 24px;
+    }
+
+    #header-subtitle {
+        font-size: 12px;
+        width: auto;
+    }
+
+    /* IMAGE */
+    #img-cheesecake {
+        margin-top: 20px;
+        border-radius: 12px;
+    }
+    /* SECTION INGREDIENTS */
+    section {
+        flex-direction: column-reverse;
+    }
+
+    #title-ingredients {
+        font-size: 18px;
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+
+    #subtitle-ingredients {
+        font-size: 16px;
+        padding: 0 0;
+    }
+
+    label {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    input[type="checkbox"] {
+        width: 2.5em;
+        height: 1.5em;
+        margin: 5px 0px 0px -6px;
+    }
+    /* INSTRUCTIONS */
+
+    h3 {
+        font-size: 24px !important;
+    }
+
+    #div-label-number label {
+        font-size: 16px;
+    }
+
+    #div-label-number {
+        padding-bottom: 25px;
+    }
+
+    #checkbox-number {
+        font-size: 24px !important;
+    }
+
+    /* SOURCE */
+    #div-src {
+        padding-top: 0;
+    }
+
+    #span-src {
+        font-size: 12px;
+    }
+
+    /* TIMES */
+    #div-times {
+        flex-direction: column;
+        padding-top: 0;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #div-center {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    #div-span-top {
+        padding: 0 0 0 0;
+        align-items: center;
+    }
+
+    #div-grid-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 20px;
+    }
+
+    #div-span {
+        padding-left: 0;
+        padding-bottom: 0;
+        align-items: center;
+        padding-right: 40px;
+    }
+
+    #div-grid-span {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #span-knife {
+        font-size: 15px;
+        padding-right: 3px;
+    }
+
+    #span-time {
+        font-size: 15px;
+        padding-right: 3px;
+    }
+
+    #span-title {
+        font-size: 8px;
+    }
+
+    #span-subtitle {
+        font-size: 10px;
+    }
+
+    #span-subtitle-active {
+        font-size: 10px;
+    }
+}
