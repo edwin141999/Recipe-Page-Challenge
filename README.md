@@ -8,16 +8,12 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://darling-mermaid-9e14c3.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/kkZBgWOCz4K6sKziQSdi">
       Solution
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
-      Challenge
     </a>
   </h3>
 </div>
